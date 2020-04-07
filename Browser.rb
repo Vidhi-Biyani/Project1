@@ -18,6 +18,7 @@ driver.action.send_keys(:shift).perform
 driver.action.send_keys(:return).perform
 #Find Elements of all links that is common
 results=driver.find_elements(:css,".r>a")
+
 results.each do |results|
   #click links
   results.click
